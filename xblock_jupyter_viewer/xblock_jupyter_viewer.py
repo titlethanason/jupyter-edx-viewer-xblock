@@ -4,7 +4,7 @@ import logging
 import pkg_resources
 from urllib.parse import urlencode
 
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 
 from xblock.core import XBlock
 from xblock.fields import Scope, String, Integer
